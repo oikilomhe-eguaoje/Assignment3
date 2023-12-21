@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WP Pusher</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@400;700;900&family=Sofia+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+      <nav class="navbar" >
+        <img src="/media/wppusher-logo copy.png" alt="wppusher-logo">
+        <ul>
+          <li><a href="">Download</a></li>
+          <li><a href="">Learn more</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href=""><button>Account</button></a></li>
+        </ul>
+      </nav>
+    <div class="container">
+      <!-- <div class="div_items"> -->
+        <form action="" method="post">
+          <!-- title -->
+          <section class="first">
+            <h2>Checkout</h2>
+          </section>
+          <!-- Basic information -->
+          <section class="second">
+            <h4><img src="/media/circle-1 (1).png" alt="1">Your Basic Information</h4>
+            <div class="name">
+              <div class="name_input">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" placeholder="Jane">
+              </div>
+              <div class="name_input">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" placeholder="Doe">
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" placeholder="janedoe@example.com">
+            </div>
+          </section>
+          <!-- Payment -->
+          <section class="third">
+            <h4><img src="/media/circle-2 (1).png" alt="2">Your Payment Information</h4>
+            <div class="card_info">
+              <label for="card">Credit Card</label>
+              <input type="text" id="card" placeholder="Card Number"  pattern="[0-9]" class="card_number"><input placeholder="MM / YY" type="text" id="card"  pattern="[0-9]" class="expiry_date"><input class="cvc_number" placeholder="CVC" type="text" id="card" pattern="[0-9]">
+            </div>
+          </section>
+          <!-- Purchase -->
+          <section class="fourth">
+            <button class="purchase" type="submit">Buy WP Pusher</button>
+            <p><img src="/media/interrogation (1).png" alt="help">Need any help? Don't hesitate to <a href="">contact support!</a></p>
+            <img src="/media/powered_by_stripe.png" alt="powered by stripe">
+          </section>
+        </form>
+        <!-- for the blue container -->
+        <div class="second_section">
+          <section>
+            <!-- plan -->
+          <section class="plan">
+            <h4 style="font-weight: 700; font-size: 20px;">Freelancer</h4>
+            <p><sup style="font-size: 24px; font-weight: 700; position: relative; bottom: 13px;" >$</sup><span  style="font-weight: 300; font-size: 3.7rem;">99</span><sub style="font-size: 1rem; font-weight: 700;">/year</sub></p>
+            <p style="font-style: italic; font-weight: 400;">Automatically renews<br>after 1 year</p>
+          </section>
+          <!-- detailstyle="list-style: url(media/check-circle.png);" -->
+          <section class="detail">
+              <p><img src="/media/check-circle.png" alt="">Use on 5 client sites</img></p>
+              <p><img src="/media/check-circle.png" alt="">Private repositories</img></p>
+              <p><img src="/media/check-circle.png" alt="">Email support</img></p>
+          </section>
+          <!-- switch -->
+          <section class="switch">
+            <p>Need 20 clients sites?</p>
+            <p>Switch to the Agency plan</p>
+          </section>
+          <!-- qoute -->
+          <section class="quote">
+            <blockquote>
+              <p>FTP is horrible to deal with.<br>WP Pusher solves that issue,<br> and the customer support is<br>awesome!</p>
+            </blockquote>
+              <footer><img src="/media/Bitmap.png" alt="Kirk Bread">Kirk Beard</footer>
+          </section>
+          </section>
+        </div>
+            <!-- </div> -->
+          </div>
+          <p class="last_footer">&copy; 2018 WP Pusher IVS &period; <a href="#">Terms of Service</a></p>
+  </div>
+</body>
+</html>

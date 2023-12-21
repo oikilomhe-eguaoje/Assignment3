@@ -1,0 +1,319 @@
+/* Josh Comeau css Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Lato', sans-serif;
+  background: hsla(204, 33%, 97%, 1);
+
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+/* Main Css */
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  padding-inline: 40px;
+  padding-block-start: 28px;
+}
+.wrapper div.container{
+  display: flex;
+  inline-size: 100%;
+  max-inline-size: 892px;
+  box-sizing: border-box;
+  margin-inline: auto;
+  background: hsla(0, 0%, 100%, 1);
+  box-shadow: 0px 15px 35px 0px hsla(204, 29%, 24%, 0.1);
+  border-radius: 6px;
+
+}
+.wrapper nav.navbar{
+  display: flex;
+  justify-content: space-between;
+  /* height: 4.5rem; */
+  border-bottom: 2px solid 
+  hsla(204, 18%, 90%, 1);
+  margin-block-end: 5.3rem;
+  width: 100%;
+  max-width: 1360px;
+  padding-block-end: 31px;
+}
+.navbar ul{
+  width: fit-content;
+  justify-content: flex-end;
+ 
+}
+.navbar img{
+  display: inline;
+  width: 200px;
+  height: 39px;
+}
+.navbar ul li{
+  display: inline;
+  margin-inline-start: 42px;
+  font-weight: 700;
+  list-style: none;
+}
+  .navbar ul li a{
+    color: hsla(211, 35%, 17%, 1);
+  text-decoration: none;
+}
+.navbar ul li a:hover{
+  color: blue;
+}
+.navbar ul li a:active{
+  color: rgb(148, 47, 139);
+}
+.navbar ul button{
+  color: hsla(211, 35%, 17%, 1);
+  width: 5.6rem;
+  height: 2.5rem;
+  border: 2px solid hsla(213, 10%, 44%, 1);
+  border-radius: 8px;
+}
+.navbar ul a button:active{
+  color: rgb(148, 47, 139);
+}
+.navbar button:hover{
+color: blue;
+}
+.container div.second_section{
+  width: 100%;
+  max-width: 312px;
+  background: hsla(204, 84%, 41%, 1);
+  padding-inline-start: 44px;
+  padding-inline-end: 37px;
+  padding-block-start: 42px;
+  padding-block-end: 143px;
+  border-radius: 0  6px 6px 0 ;
+}
+.second_section section{
+  padding-bottom: 40px;
+  color: 
+  hsla(0, 0%, 100%, 1);
+}
+section.detail p img{
+   padding-inline-end: 11px; 
+  
+}
+section section.switch p:nth-child(2){
+  border-bottom: 4px solid 
+  hsla(189, 100%, 86%, 50.36%);
+  padding-bottom: 0;
+}
+section section.quote blockquote{
+  border-top: 2px solid 
+  hsla(0, 0%, 100%, 20.05%);
+  padding-block-start: 41px;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+section section.quote footer{
+  padding-block-start: 17px;
+  position: relative;
+  img{
+    width: 40px;
+    height: 40px;
+    margin-inline-end: 14px;
+    position: relative;
+    top: 12px;
+  }
+}
+.container section.first, .second, .third{
+  border-bottom: 2px solid hsla(216, 33%, 97%, 1);
+}
+.container section.first h2{
+  padding-inline: 49px;
+  padding-block-start: 41px;
+  margin-block-end: 24px;
+  font-weight: 400;
+  font-size: 2rem;
+  color: hsla(211, 35%, 17%, 1);
+}
+section.second .name{
+  display: flex;
+  padding-block-end: 15px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+section.second .name_input{
+  padding-block-end: 15px;
+  width: 100%;
+  max-width: 227px;
+}
+
+section.second input{
+  border-radius: 4px;
+  padding-left: 8px;
+}
+section.second {
+  padding-inline: 49px;
+  padding-block-start: 41px;
+  margin-block-end: 24px;
+}
+section.second .email label{
+  display: inline-block;
+  width: 100%;
+}
+section.second .email input{
+  width: 100%;
+  max-width: 370px;
+}
+section.second .email{
+  padding-block-end: 41px;
+}
+form .third h4{
+  font-weight: 700;
+  font-size: 18px;
+  padding-block-end: 21px;
+img{
+  position: relative;
+  top: 5px;
+  margin-inline-end: 5px;
+}
+}
+form .second h4{
+  font-weight: 700;
+  font-size: 18px;
+  padding-block-end: 9px;
+img{
+  position: relative;
+  top: 5px;
+  margin-inline-end: 5px;
+}
+}
+section.third {
+  padding-inline: 49px;
+  padding-block-end: 41px;
+  margin-block-end: 24px;
+}
+section.third h4{
+  padding-block-end: 41px;
+}
+label{
+  font-weight: 400;
+  color: hsla(211, 35%, 17%, 1);
+  font-size: 14px;
+}
+div.card_info{
+  display: block;
+  padding: 0.2em 0.5em;
+  width: 100%;
+  margin-bottom: 0.2em;
+}
+div.card_info label{
+    display: block;
+    max-width: 187px;
+    padding-bottom: 7px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+  }
+  div.card_info .card_number{
+    max-width: 60.5%;
+    padding-left: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  input {
+		background:
+hsla(216, 16%, 94%, 1);
+		border: 0;
+		box-shadow: none;
+		outline: 0;
+		padding: 0;
+    height: 36px;
+    width: 100%;
+	}
+  div.card_info .expiry_date{
+    display: inline;
+    max-width: 21.5%;
+  }
+  div.card_info .cvc_number{
+    max-width: 18%;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  section.fourth{
+    padding-inline: 49px;
+    padding-block-end: 2.9rem;
+  }
+  section.fourth .purchase{
+    color: hsla(0, 0%, 100%, 1);
+    height: 52px;
+    width: 100%;
+    background: hsla(173, 96%, 28%, 1);
+    border: 0;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.13rem;
+    margin-block-end: 23px;
+  }
+  section.fourth p{
+    max-width: 333px;
+    text-align:justify;
+    padding-block-end: 31px;
+    margin-inline: auto;
+    img{
+      margin-inline-end: 10px;
+    }
+  }
+  section.fourth > img{
+    position: relative;
+   left: 35%; 
+  }
+  p.last_footer{
+    margin: 0 auto;
+    padding-block-start: 33px;
+    margin-block-end: 139px;
+    text-align: center;
+  }
+  /* media queries */
+  @media (max-width: 700px) {
+    div.wrapper .container {
+      display: block;
+      inline-size: 100%;
+      max-inline-size: 892px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      background: hsla(0, 0%, 100%, 1);
+      box-shadow: 0px 15px 35px 0px hsla(204, 29%, 24%, 0.1);
+      border-radius: 0;
+    }
+    .container div.second_section{
+      width: 100%;
+      background: hsla(204, 84%, 41%, 1);
+      padding-inline-start: 44px;
+      padding-inline-end: 37px;
+      padding-block-start: 42px;
+      padding-block-end: 143px;
+      margin: 0 auto;
+      border-radius: 0;
+    }
+    section.second .name{
+      display: block;
+      padding-block-end: 15px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    section.second .name_input{
+      display: block;
+      padding-block-end: 15px;
+      width: 100%;
+    }
+  }
+ 
